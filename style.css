@@ -1,0 +1,76 @@
+@import url('https://fonts.google.com/specimen/Droid+Sans');
+body {
+    font-family: 'Droid Sans';
+    background-color: #F7FFF7;
+}
+#juego {
+    text-align: center;
+}
+#main {
+    background-color: white;
+    width: 900px;
+    height: 400px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+}
+#opciones {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#imagen {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #FF6B6B;
+}
+#guiones {
+    font-size: 25px;
+}
+#letra {
+    border-radius: 10px;
+    font-style: italic;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 12px 15px;
+    background-color: #E7E5DF;
+    border: none;
+}
+#buscar {
+    font-size: 20px;
+    color: #F7FFF7;
+	font-weight: bold;
+    border-radius: 10px;
+    background-color: #FF6B6B;
+    border: none;
+    padding: 15px 40px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+}
+#ahorcado {
+    height: 420px;
+    width: 200px;
+    margin: auto;
+    border-radius: 10px;
+    background-image: url("./imagen\ 1000x420.png");
+}
+#ganador {
+    display: none;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 300%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: aliceblue;
+}
